@@ -22,7 +22,7 @@ params = {'aws_key': movie_s3_config["awsKey"],
 
 # Default settings for DAG
 default_args = {
-    'owner': 'Alan',
+    'owner': 'Anas',
     'depends_on_past': False,
     'start_date': datetime.today(),
     'retries': 5,
